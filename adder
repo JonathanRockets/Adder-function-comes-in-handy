@@ -1,0 +1,12 @@
+def adder(a,b):
+     return a+b
+if __name__=="__main__":
+     print ("choose the numbers you want to put in this program")
+     firstnumber = int(input ("write your first number: "))
+     secondnumber = int(input ("write your second number: "))
+     solution = adder(firstnumber,secondnumber)
+     print(solution)
+
+
+
+
